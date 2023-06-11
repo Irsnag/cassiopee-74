@@ -24,6 +24,12 @@ Detection de visages sur flux compressé
   
   
 3ème étape : Création des masks
+  
+  Lancer le script mask_creation.py et modifier le nom du fichier dans la ligne cap = cv2.VideoCapture("Video.mp4") afin de créer les masks depuis la bonne vidéo
+  
+  Modifier le paramètre liste_text qui doit contenir la liste des numéros des i frames dans la vidéo
+  
+  Par défaut, ce code sauvegardera la matrice des masks sous le nom M.npy
 
 
 4ème étape : Répéter ce processus pour chaque vidéo et concaténer les frames ensembles, puis les masks ensembles
