@@ -3,7 +3,7 @@ Detection de visages sur flux compressé
 
 1ère étape : Récupération des matrices de luminance sur JM Master
 
-  Ouvrir le logiciel JM Master, faire un build et un run puis lancer les 2 commandes suivantes
+  -Ouvrir le logiciel JM Master, faire un build et un run puis lancer les 2 commandes suivantes
   
      ffmpeg -i Video.mp4 -c:v libx264 Video.264 
     
@@ -25,11 +25,11 @@ Detection de visages sur flux compressé
   
 3ème étape : Création des masks
   
-  Lancer le script mask_creation.py et modifier le nom du fichier dans la ligne cap = cv2.VideoCapture("Video.mp4") afin de créer les masks depuis la bonne vidéo
+  -Lancer le script mask_creation.py et modifier le nom du fichier dans la ligne cap = cv2.VideoCapture("Video.mp4") afin de créer les masks depuis la bonne vidéo
   
-  Modifier le paramètre liste_text qui doit contenir la liste des numéros des i frames dans la vidéo
+  -Modifier le paramètre liste_text qui doit contenir la liste des numéros des i frames dans la vidéo
   
-  Par défaut, ce code sauvegardera la matrice des masks sous le nom M.npy
+  -Par défaut, ce code sauvegardera la matrice des masks sous le nom M.npy
 
 
 4ème étape : Répéter ce processus pour chaque vidéo et concaténer les frames ensembles, puis les masks ensembles
