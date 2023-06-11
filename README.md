@@ -12,15 +12,11 @@ Detection de visages sur flux compressé
  
 2ème étape : Conversion en numpy array 
 
-  Ouvrir le script create_mat.py et décommenter les lignes à la fin. 
-  
-  Donner à la variable filename le nom du fichier contenant la matrice extraite précedemment
-  
-  Lancer la fonction correct_file(filename)
-  
-  Donner à corrected_filename le nom du fichier généré par la fonction correct_file(filename)
-  
-  Lancer la fonction create_matrix(corrected_filename)
+  -Ouvrir le script create_mat.py et décommenter les lignes à la fin. 
+  -Donner à la variable filename le nom du fichier contenant la matrice extraite précedemment
+  -Lancer la fonction correct_file(filename)
+  -Donner à corrected_filename le nom du fichier généré par la fonction correct_file(filename)
+  -Lancer la fonction create_matrix(corrected_filename)
   
   
 3ème étape : Création des masks
