@@ -5,7 +5,7 @@ Detection de visages sur flux compressé
 
   Ouvrir le logiciel JM Master, faire un build et un run puis lancer les 2 commandes suivantes
   
-    - ffmpeg -i Video.mp4 -c:v libx264 Video.264 pour convertir Video.mp4 en format .264 depuis laquelle nous pouvons extraire nos composantes d'intérêts
+    - ffmpeg -i Video.mp4 -c:v libx264 Video.264 (pour convertir Video.mp4 en format .264 depuis laquelle nous pouvons extraire nos composantes d'intérêts)
     
     - ./ldecod -i "/path/to/Video.264" -o Video.yuv 
  
