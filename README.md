@@ -45,7 +45,7 @@ Detection de visages sur flux compressé
   
   -Modifier les paramètre data et label pour load les bonnes données
   
-  -Décommenter les autres lignes et lance le code
+  -Décommenter les autres lignes et lancer le code
   
   
   
