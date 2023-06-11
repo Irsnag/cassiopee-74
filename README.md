@@ -34,10 +34,24 @@ Detection de visages sur flux compressé
   -Par défaut, ce code sauvegardera la matrice des masks sous le nom M.npy
 
 
-4ème étape : Répéter ce processus pour chaque vidéo et concaténer les frames ensembles, puis les masks ensembles
-
+4ème étape : Concaténation
+  
+  -Répéter les étapes 1 à 3 pour chaque vidéo et concaténer les frames ensembles, puis les masks ensembles
+  
 
 5ème étape : Filtrage (étape non obligatoire)
+  
+  -Cette étape permet de filtrer les données obtenus en ne gardant que les frames où un visage est présent
+  
+  -Modifier les paramètre data et label pour load les bonnes données
+  
+  -Décommenter les autres lignes et lance le code
+  
+  
+  
+6ème étape : Training
+  
+  -Choisir un des 2 modèles (avec ou sans poids ajustés), régler le nom des inputs et lancer l'ensemble du code pour effectuer un training.
   
   
   
