@@ -80,3 +80,7 @@ def filtrage(data, label, L):
             j += 1
 
     return data_f, label_f
+
+
+#L=list_filtrage(label)
+#data_f, label_f=filtrage(data, label, L)
