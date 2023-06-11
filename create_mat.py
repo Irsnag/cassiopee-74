@@ -109,7 +109,8 @@ def create_matrix(filename):
 
 # filename = 'input.txt'
 # correct_file(filename)
-# matrix = create_matrix('corr_' + filename)
+# corrected_file = ''
+# matrix = create_matrix(corrected_file)
 
     
 
