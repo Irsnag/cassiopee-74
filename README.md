@@ -9,7 +9,6 @@ Detection de visages sur flux compressé
      
      ffprobe -select_streams v -show_frames -v quiet -of csv=p=0 -show_entries frame=pict_type Videoiframe.264 | grep -n I | cut -d ':' -f 1 > Videoiframe.txt
 
-    
     ./ldecod -i "/path/to/Video.264" -o Video.yuv 
  
  
