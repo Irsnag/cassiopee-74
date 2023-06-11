@@ -81,6 +81,7 @@ def filtrage(data, label, L):
 
     return data_f, label_f
 
-
+#data=np.load('')
+#label=np.load('')
 #L=list_filtrage(label)
 #data_f, label_f=filtrage(data, label, L)
