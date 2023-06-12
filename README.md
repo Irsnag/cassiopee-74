@@ -3,7 +3,7 @@ Detection de visages sur flux compressé
 
 1ère étape : Récupération des matrices de luminance sur JM Master
 
-  -Ouvrir le logiciel JM Master, faire un build et un run puis lancer les 3 commandes suivantes
+  -Ouvrir le logiciel JM Master, faire un build et un run puis lancer les 3 commandes suivantes (penser à modifier le paramètre fp dans le fichier macroblock.c afin de modifier le nom du fichier txt dans lequel seront écrites les matrices voulues)
   
      ffmpeg -i Video.mp4 -c:v libx264 Video.264 
      
